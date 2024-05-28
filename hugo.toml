@@ -2,6 +2,9 @@ baseURL = 'dsa.adityakumar.xyz'
 languageCode = 'en-us'
 title = 'Data Strucutres and Algorithms'
 
+themesDir = "themes"
+theme = "hugo-book"
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
