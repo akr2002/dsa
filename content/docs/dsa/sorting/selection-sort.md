@@ -28,6 +28,15 @@ Here's how Selection Sort works step by step:
 
 5. Repeat steps 2-4 until the entire list is sorted.
 
+```
+for i := 1 to n do
+{
+    Examine a[i] to a[n] and suppose
+    the smallest element is at a[j];
+    Interchange a[i] and a[j];
+}
+```
+
 The algorithm's time complexity is O(n<sup>2</sup>) for all cases (worst, average, and best), making it
 inefficient on large lists compared to more advanced algorithms like quicksort, mergesort or
 heapsort. However, Selection Sort has its advantages such as simplicity and performing only a
