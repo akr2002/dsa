@@ -1,3 +1,75 @@
-baseURL = 'https://example.org/'
+baseURL = 'dsa.adityakumar.xyz'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Data Strucutres and Algorithms'
+
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true 
+
+[markup.tableOfContents]
+  startLevel = 1
+
+[menu]
+[[menu.after]]
+  name = "Gitea"
+  url = "https://gitea.adityakumar.xyz/dsa"
+  weight = 10
+
+[params]
+  # light, dark, auto 
+  BookTheme = 'auto'
+
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
+
+  # /static/favicon.png
+  # BookFavicon = 'favicon.png'
+
+  # logo for the book 
+  # /static/logo.png
+  # BookLogo = 'logo.png'
+
+  # Set leaf bundle to render as side menu
+  # BookMenuBundle = '/menu'
+
+  # Root page to render child pages as menu
+  BookSection = 'docs'
+
+  # Source repo location
+  # Used for 'Last Modified' and 'Edit this page' links
+  BookRepo = 'https://gitea.adityakumar.xyz/dsa'
+
+  # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
+  # commit hash for 'doc' page type.
+  # Requires 'BookRepo' param.
+  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
+  # Github uses 'commit', Bitbucket uses 'commits'
+  BookCommitPath = 'commit'
+
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Edit path must point to root directory of repo.
+  # BookEditPath = 'edit/main/exampleSite'
+
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat = 'January 2, 2006'
+
+# (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch = true
+
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = false
