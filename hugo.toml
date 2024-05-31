@@ -20,7 +20,7 @@ enableGitInfo = true
 [menu]
 [[menu.after]]
   name = "Gitea"
-  url = "https://gitea.adityakumar.xyz/dsa"
+  url = "https://gitea.adityakumar.xyz/aditya/dsa"
   weight = 10
 
 [params]
@@ -47,7 +47,7 @@ enableGitInfo = true
 
   # Source repo location
   # Used for 'Last Modified' and 'Edit this page' links
-  BookRepo = 'https://gitea.adityakumar.xyz/dsa'
+  BookRepo = 'https://gitea.adityakumar.xyz/aditya/dsa'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
