@@ -8,7 +8,7 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-
+# Trees
 A tree, is a hierarchical way of organizing
 elements (often referred to as nodes) where each element has zero or more child elements. It is one
 of the most fundamental and widely used abstract data types (ADT). The structure consists of nodes

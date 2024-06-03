@@ -8,7 +8,7 @@ weight: 1
 # bookComments: false
 # bookSearchExclude: false
 ---
-
+# Binary Search Tree
 A Binary Search Tree (BST) is a type of data structure that organizes nodes in a hierarchical
 manner, where each node has at most two children: left and right. The key characteristic of a BST
 lies in the way it stores elements based on their values to maintain an ordered sequence that allows
